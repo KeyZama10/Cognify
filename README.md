@@ -31,6 +31,7 @@ Based on the Decision Tree model, the most influential features determining a re
 2. **Recommendation Criteria:** Determined the criteria for recommendations based on user's preferred cuisine, price range, and minimum rating.
 3. **Content-Based Filtering:** Implemented a TF-IDF vectorizer on restaurant cuisines to compute similarity via cosine similarity against the user's preference.
 4. **System Testing:** Created a function to test the recommendation engine against sample user criteria, returning the top matches.
+5. **Visualization:** Added visualization using `seaborn` and `matplotlib` to plot the top recommended restaurants showing their similarity scores and ratings.
 
 ---
 
